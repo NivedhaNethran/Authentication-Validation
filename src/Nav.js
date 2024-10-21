@@ -11,6 +11,7 @@ const Nav = () => {
   <li><Link to="/sign" className='lin'>Signin</Link></li>
   <li><Link to="/log" className='lin'>Login</Link></li>
   <li><Link to="/val" className='=lin'>Valid</Link></li>
+  <li><Link to='/fake' className='lin'>Fakedata</Link></li>
  </ul>
 
     </div>

@@ -5,6 +5,7 @@ import Nav from './Nav'
 import Sigin from './Sigin'
 import Login from './Login'
 import Validation from './Valid'
+import Fakedata from './Fakedata'
 
 function App () {
   return (
@@ -15,6 +16,9 @@ function App () {
         <Route path='/sign' element={<Sigin/>}/>
         <Route path='/log' element={<Login/>}/>
         <Route path='/val' element={<Validation/>}/>
+       <Route path='/fake' element={<Fakedata/>}/>
+
+        
       </Routes>
       </BrowserRouter>
       
